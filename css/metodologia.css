@@ -1,0 +1,95 @@
+#metodologia {
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
+
+#metodologia h2::before {
+  text-align: left;
+}
+
+#metodologia .b1 {
+  max-width: 635px;
+
+  margin-bottom: 48px;
+}
+
+#metodologia .b2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#metodologia .fase {
+  padding: 30px;
+  background: #0E0E12;
+  position: relative;
+  border-radius: 12px;
+}
+
+#metodologia h3 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: -5px;
+}
+
+#metodologia .fase::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px; 
+  padding: 1px; 
+  background:linear-gradient(to right,rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+}
+
+
+#metodologia .fase h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #F7F7F7;
+  margin-bottom: 8px;
+}
+
+#metodologia .fase p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #B5B5B5;
+}
+
+@media (max-width: 768px) {
+  #metodologia {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  #metodologia .b2 {
+    flex-direction: column;
+  }
+  
+  #metodologia h2 {
+    text-align: center;
+  }
+
+  #metodologia .fase h2 {
+    text-align: left;
+  }
+
+  #metodologia h2::before {
+    text-align: center;
+  }
+
+  #metodologia .container {
+    max-width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

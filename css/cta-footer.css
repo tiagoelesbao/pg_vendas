@@ -1,0 +1,28 @@
+#cta-footer {
+    padding-top: 125px;
+    padding-bottom: 295px;
+
+    background: linear-gradient(358.9deg, #007CD6 -3.92%, rgba(2, 27, 49, 0.76) 54.2%, rgba(0, 6, 18, 0) 80.57%);
+}
+
+#cta-footer .container {
+    max-width: 418px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cta-footer .container h2 {
+    margin-bottom: 24px;
+    font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+}
+
+
+@media (max-width: 768px) {
+    #cta-footer .container h2{
+        max-width: 315px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

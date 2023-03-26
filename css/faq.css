@@ -1,0 +1,152 @@
+#faq {
+    padding-bottom: 72px;
+    margin-top: 72px;
+    position: relative;
+}
+
+#faq .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#faq h2:before {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+#faq .b1 {
+  margin-bottom: 36px;
+  max-width: 410px;
+
+}
+
+#faq .b1 h2 {
+  margin-bottom: 24px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#faq .accordion-item {
+  border: 1px solid rgba(62, 72, 89, 0.5);
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.accordion-button .collapsed {
+  background-color: none;
+}
+
+.accordion-button{
+  background-color: transparent;
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #F7F7F7;
+
+  padding: 24px;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.accordion-header {
+  background-color: transparent;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  box-shadow: none;
+  border-color: none;
+  outline: 0px;
+}
+
+.accordion-body {
+  padding-top: 0px;
+  padding-left: 32px;
+  padding-bottom: 34px;
+
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #B5B5B5;
+}
+
+.accordion h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* FECHADO */
+.accordion-button:after {
+  order: 1; 
+  margin-left: 0; 
+  background-image: url("../img/icon-faq.svg");
+}
+
+/* ABERTO */
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/icon-faq.svg");
+}
+
+@media (max-width: 768px) {
+  #faq .b1 {
+    position: inherit;
+    margin-bottom: 30px;
+  }
+
+  #faq .b1 h2:before {
+    padding-bottom: 20px;
+  }
+
+  #faq .b1 h2 {
+    margin-bottom: 20px;
+  }
+
+  .accordion {
+    gap: 20px;
+  }
+
+  #faq {
+    margin-top: 72px;
+    padding-bottom: 36px;
+  }
+
+  #faq .row > div {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    max-width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #faq .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

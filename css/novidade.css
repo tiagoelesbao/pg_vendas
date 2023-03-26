@@ -1,0 +1,106 @@
+#novidade {
+    padding-top: 230px;
+    padding-bottom: 120px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nov1 {
+    background-image: url("../img/webp/bg-novidade1-desk.webp");
+}
+
+.nov2 {
+    background-image: url("../img/webp/bg-novidade2-desk.webp");
+}
+
+.nov3 {
+    background-image: url("../img/webp/bg-novidade3-desk.webp");
+}
+
+.nov4 {
+    background-image: url("../img/webp/bg-novidade4-desk.webp");
+}
+
+#novidade .row {
+    height: 100%;
+}
+
+#novidade .b1 {
+    max-width: 528px;
+    z-index: 1;
+}
+
+#novidade .b1 h2 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
+#novidade .b1 h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 55px;
+    color: #F7F7F7;
+
+    margin-bottom: 24px;
+    margin-top: 18px;
+}
+
+
+@media (max-width: 768px) {
+
+    #novidade {
+        padding-bottom: 60px;
+        padding-top: 316px;
+        position: relative;
+    }
+
+    #novidade:before {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        height: 60%;
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #000000 90%);
+    }
+    
+    #novidade .b1 {
+        max-width: 315px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    #novidade .b1 h1 {
+        font-size: 29px;
+        line-height: 36px;
+    }
+
+    .nov1 {
+        background-image: url("../img/webp/bg-novidade1-mob.webp");
+    }
+    
+    .nov2 {
+        background-image: url("../img/webp/bg-novidade2-mob.webp");
+    }
+    
+    .nov3 {
+        background-image: url("../img/webp/bg-novidade3-mob.webp");
+    }
+    
+    .nov4 {
+        background-image: url("../img/webp/bg-novidade4-mob.webp");
+    }
+}

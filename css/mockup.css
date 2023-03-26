@@ -1,0 +1,80 @@
+#mockup {
+    padding-top: 100px;
+    padding-bottom: 72px;
+    background: #020408;
+    position: relative;
+    overflow: hidden;
+}
+
+#mockup .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#mockup .container-mockup {
+    position: relative;
+    max-width: 838px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mockup .container-mockup .mockup {
+    max-width: 100%;
+}
+
+#mockup .mockup {
+    position: relative;
+    z-index: 2;
+}
+
+#mockup .item2 {
+    position: absolute;
+    bottom: -12%;
+    left: -3%;
+    animation: rotate 8s linear infinite;
+    z-index: 3;
+    max-width: 150px;
+}
+
+#mockup .item1 {
+    position: absolute;
+    top: -20%;
+    right: -5%;
+    max-width: 434px;
+    z-index: 1;
+    animation: rotate 14s linear infinite reverse;
+}
+
+@media (max-width: 768px){
+    #mockup {
+        padding-top: 100px;
+        overflow: hidden;
+        padding-bottom: 0px;
+    }
+
+    #mockup .row > div {
+        max-width: 315px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #mockup .container-mockup {
+        margin-bottom: 40px;
+    }
+
+    #mockup .item1 {
+        position: absolute;
+        top: -36%;
+        right: -13%;
+        z-index: 1;
+        animation: rotate 14s linear infinite reverse;
+    }
+
+    #mockup .item2 {
+        bottom: -18%;
+    }
+   
+    
+}
