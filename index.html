@@ -1129,7 +1129,7 @@ gsap.to(sections2, {
                   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                   xhr.onreadystatechange = function() {
                     if (xhr.readyState === 4 && xhr.status === 200) {
-                      window.open("https://pay.kiwify.com.br/387R7sh");
+                        window.location.replace("https://pay.kiwify.com.br/387R7sh");
                     }
                   };
                   var data = new FormData(form);
