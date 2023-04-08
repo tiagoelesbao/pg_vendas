@@ -17,7 +17,7 @@
   <meta property="og:title" content="Projeto Drop Servicer">
   <meta property="og:description" content="Fature 5 dígitos vendendo serviços de Marketing para Empresas" />
 
-  <meta property="og:site_name" content="Nômade Milionário Legacy" />
+  <meta property="og:site_name" content="Projeto Drop Servicer" />
   <meta property="og:type" content="website">
  
 
@@ -39,11 +39,9 @@
 
 </head>
 <body>
-
-  <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3H4L94"
+    <noscript><iframe src=""
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) --><section id="navbar" class="d-none d-md-block">
+ <section id="navbar" class="d-none d-md-block">
     <div class="container px-0">
         <nav>
             <ul class="menu">
@@ -133,7 +131,7 @@
 <section id="hero">
     <div class="conteudo-hero">
         <img class="logo d-md-none" src="img/logo-nm-legacy.svg" alt="">
-        <h1>Descubra Como Faturar<br> 5 Dígitos <span class="text-gradient-blue"><br>Fazendo Drop Services</span></h1>
+        <h1>Descubra Como <span class="text-gradient-blue">Faturar 5 Dígitos </span> <h1</h1>Fazendo<span class="text-gradient-blue"> Drop Services</span></h1>
         <p>Mesmo que você esteja começando do zero!</p>
         <div class="video-container">
             <img class="close-sticky d-none" src="img/close-modal-depo.svg" alt="">
@@ -1089,7 +1087,9 @@ gsap.to(sections2, {
 
             <p>Preencha o formulário abaixo para prosseguir com a sua compra e descubra os segredos para se tornar um <span class="text-gradient-blue">Nômade Milionário</span>:</p>
             <form method="POST"
-                action="https://pay.kiwify.com.br/387R7sh" id="form-id" style="text-align: center;" data-toggle="validator">
+                action="https://script.google.com/macros/s/AKfycbw01yL3zyFjjKzPmDRYrngNDCuWHiX5um0qpyrPeX1MSAbTrlPdaHQJf--oa-EiHc1n/exec" method="post" id="form-id" style="text-align: center;" data-toggle="validator">
+
+                <input type="hidden" name="cadastro_confirmado" value="https://pay.kiwify.com.br/387R7sh">
 
                 <!--  UTM'S -->
                 <input type="hidden" name="utm_source" value="">
@@ -1120,6 +1120,24 @@ gsap.to(sections2, {
                 
                 <button type="submit" name="submit" class="button btn-submit">CONFIRMAR MEU CADASTRO</button>
             </form>
+            <script>
+                var form = document.getElementById("form-id");
+                form.addEventListener("submit", function(event) {
+                  event.preventDefault();
+                  var xhr = new XMLHttpRequest();
+                  xhr.open(form.method, form.action);
+                  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                  xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                      window.open("https://pay.kiwify.com.br/387R7sh");
+                    }
+                  };
+                  var data = new FormData(form);
+                  xhr.send(new URLSearchParams(data).toString());
+                });
+              </script>
+           
+
             <span class="aviso">* Importante: O endereço de e-mail e WhatsApp informado deve ser válido para que você possa receber todos os conteúdos da série gratuita.</span>
             </div>
         </div>  
