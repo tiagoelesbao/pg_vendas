@@ -56,10 +56,10 @@
     color: var(--subtitulo);
 }
 
-#modulos .b2 {
-    max-width: 640px;
-    margin-left: auto;
+.col.b2 .grid img {
+    border-radius: 04px; 
 }
+
 
 #modulos .grid {
     display: grid;
