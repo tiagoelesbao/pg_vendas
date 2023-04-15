@@ -33,9 +33,18 @@
     position: absolute;
     bottom: -12%;
     left: -3%;
-    animation: rotate 8s linear infinite;
+    animation: rotate 8s linear infinite, opacity 2s ease-in-out infinite alternate;
     z-index: 3;
     max-width: 150px;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
 }
 
 #mockup .item1 {
