@@ -43,30 +43,13 @@
     font-size: 32px;
     line-height: 36px;
 }
-
-@keyframes pulse {
-    0% {
-      opacity: 0.8;
-      filter: brightness(80%);
-    }
-    50% {
-      opacity: 2;
-      filter: brightness(100%);
-    }
-    100% {
-      opacity: 0.8;
-      filter: brightness(80%);
-    }
-  }
   
   #hero .logo {
     position: relative;
     z-index: 2;
-    animation: pulse 10s ease-in-out infinite;
   }
   
   
-
 #hero .conteudo-hero {
     position: absolute;
     left: 0;
