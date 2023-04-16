@@ -43,14 +43,7 @@
   }
   
 
-#mockup .item2 {
-    position: absolute;
-    bottom: -12%;
-    left: -3%;
-    animation: rotate 8s linear infinite, opacity 2s ease-in-out infinite alternate;
-    z-index: 3;
-    max-width: 150px;
-}
+
 
 @keyframes opacity {
     0% {
@@ -95,9 +88,7 @@
         animation: rotate 14s linear infinite reverse;
     }
 
-    #mockup .item2 {
-        bottom: -18%;
-    }
+   
    
     
 }
