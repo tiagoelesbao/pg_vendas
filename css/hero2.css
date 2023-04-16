@@ -44,10 +44,28 @@
     line-height: 36px;
 }
 
-#hero .logo {
+@keyframes pulse {
+    0% {
+      opacity: 0.8;
+      filter: brightness(80%);
+    }
+    50% {
+      opacity: 2;
+      filter: brightness(100%);
+    }
+    100% {
+      opacity: 0.8;
+      filter: brightness(80%);
+    }
+  }
+  
+  #hero .logo {
     position: relative;
     z-index: 2;
-}
+    animation: pulse 10s ease-in-out infinite;
+  }
+  
+  
 
 #hero .conteudo-hero {
     position: absolute;
@@ -157,19 +175,19 @@
         padding-bottom: 0px;
         height: auto;
         background-image: none;
-        background: linear-gradient(135deg, rgba(26, 214, 253, 0.1) 0%, rgba(0, 0, 0, 0) 77%), linear-gradient(135deg, rgba(232, 131, 148, 0.1) 0%, rgba(0, 0, 0, 0) 84%), linear-gradient(135deg, rgba(33, 33, 33, 0.5) 0%, rgba(21, 21, 21, 0) 100%), #000000;
+        background: linear-gradient(325deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 77%), linear-gradient(325deg, #1a1a2e 0%, rgba(0, 0, 0, 0) 84%), linear-gradient(325deg, #000000 0%, rgba(21, 21, 21, 0) 100%);
     }
-
+    
     #hero:after {
         display: none;
     }
-
+    
     .placeholder-video {
         height: 56.25vw !important;
         width: 100%;
         display: none;
     }
-
+    
     #hero .conteudo-hero {
         position: inherit;
         align-items: center;
@@ -178,9 +196,10 @@
         
         max-width: 100%;
         width: 100%;
-
-        background: linear-gradient(135deg, rgba(26, 214, 253, 0.1) 0%, rgba(0, 0, 0, 0) 77%), linear-gradient(135deg, rgba(232, 131, 148, 0.1) 0%, rgba(0, 0, 0, 0) 84%), linear-gradient(135deg, rgba(33, 33, 33, 0.5) 0%, rgba(21, 21, 21, 0) 100%), #000000;
+    
+        background: linear-gradient(325deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 77%), linear-gradient(325deg, #1a1a2e 0%, rgba(0, 0, 0, 0) 84%), linear-gradient(325deg, #000000 0%, rgba(21, 21, 21, 0) 100%), rgba(16, 83, 182, 0.26);
     }
+    
 
     #hero h1 {
         text-align: center;
@@ -196,7 +215,7 @@
     }
 
     #hero .logo {
-        max-width: 120px;
+        max-width: 250px;
     }
 
     #hero h1 {
