@@ -27,7 +27,21 @@
 #mockup .mockup {
     position: relative;
     z-index: 2;
-}
+    animation: shake 15s ease-in-out infinite;
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(5px);
+    }
+  }
+  
 
 #mockup .item2 {
     position: absolute;
@@ -50,10 +64,10 @@
 #mockup .item1 {
     position: absolute;
     top: -20%;
-    right: -5%;
-    max-width: 434px;
+    right: 22%;
+    max-width: 207px;
     z-index: 1;
-    animation: rotate 14s linear infinite reverse;
+    animation: rotate 18s linear infinite, opacity 2s ease-in-out infinite alternate;
 }
 
 @media (max-width: 768px){
@@ -76,7 +90,7 @@
     #mockup .item1 {
         position: absolute;
         top: -36%;
-        right: -13%;
+        right: 7%;
         z-index: 1;
         animation: rotate 14s linear infinite reverse;
     }
