@@ -85,8 +85,18 @@
         top: -36%;
         right: 7%;
         z-index: 1;
-        animation: rotate 14s linear infinite reverse;
+        animation: rotate-clockwise 14s linear infinite;
     }
+    
+    @keyframes rotate-clockwise {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
 
    
    
