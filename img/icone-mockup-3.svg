@@ -1,34 +1,7 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M18.4409 14.8025V20.0001" stroke="#D9D9D9" stroke-width="1.36931" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.4409 14.8025V20.0001" stroke="url(#paint0_linear_2401_35867)" stroke-width="1.36931" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.4409 14.8025L16.4409 16.4692" stroke="#D9D9D9" stroke-width="1.36931" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.4409 14.8025L16.4409 16.4692" stroke="url(#paint1_linear_2401_35867)" stroke-width="1.36931" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.4409 14.8025L20.4409 16.4692" stroke="#D9D9D9" stroke-width="1.36931" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.4409 14.8025L20.4409 16.4692" stroke="url(#paint2_linear_2401_35867)" stroke-width="1.36931" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M2 20H12" stroke="#D9D9D9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M2 20H12" stroke="url(#paint3_linear_2401_35867)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.67149 14.705L2 12.05L3.57363 11.2681C3.85914 11.1263 4.19455 11.1263 4.48006 11.2681L6.05369 12.05L9.289 10.059L5.0403 6.0304L7.88553 5L13.1476 8.02145L17.7092 5.431C18.3089 5.08928 19.0336 5.04689 19.6691 5.31638C20.3045 5.58586 20.7778 6.13636 20.949 6.805V6.805C21.1303 7.52882 20.8148 8.28577 20.1731 8.66659L11.4508 13.8676C11.2325 13.9977 10.9918 14.0857 10.7412 14.1272L5.55467 14.9863C5.23218 15.0399 4.90359 14.9352 4.67149 14.705Z" stroke="#D9D9D9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.67149 14.705L2 12.05L3.57363 11.2681C3.85914 11.1263 4.19455 11.1263 4.48006 11.2681L6.05369 12.05L9.289 10.059L5.0403 6.0304L7.88553 5L13.1476 8.02145L17.7092 5.431C18.3089 5.08928 19.0336 5.04689 19.6691 5.31638C20.3045 5.58586 20.7778 6.13636 20.949 6.805V6.805C21.1303 7.52882 20.8148 8.28577 20.1731 8.66659L11.4508 13.8676C11.2325 13.9977 10.9918 14.0857 10.7412 14.1272L5.55467 14.9863C5.23218 15.0399 4.90359 14.9352 4.67149 14.705Z" stroke="url(#paint4_linear_2401_35867)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<defs>
-<linearGradient id="paint0_linear_2401_35867" x1="17.9409" y1="14.8025" x2="19.0136" y2="14.8175" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00C1EB"/>
-<stop offset="1" stop-color="#0094FF"/>
-</linearGradient>
-<linearGradient id="paint1_linear_2401_35867" x1="16.4409" y1="14.8025" x2="18.5705" y2="14.9889" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00C1EB"/>
-<stop offset="1" stop-color="#0094FF"/>
-</linearGradient>
-<linearGradient id="paint2_linear_2401_35867" x1="18.4409" y1="14.8025" x2="20.5705" y2="14.9889" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00C1EB"/>
-<stop offset="1" stop-color="#0094FF"/>
-</linearGradient>
-<linearGradient id="paint3_linear_2401_35867" x1="2" y1="19.5" x2="9.00345" y2="24.6083" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00C1EB"/>
-<stop offset="1" stop-color="#0094FF"/>
-</linearGradient>
-<linearGradient id="paint4_linear_2401_35867" x1="2" y1="5" x2="22.0014" y2="7.77183" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00C1EB"/>
-<stop offset="1" stop-color="#0094FF"/>
-</linearGradient>
-</defs>
-</svg>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#ffffff" width="100px" height="100px" viewBox="-9.92 -9.92 51.84 51.84" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="0.00032">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier"> <g data-name="39. Mind" id="_39._Mind"> <path d="M31.87,12.07a14.1,14.1,0,0,0-12-12A14,14,0,0,0,4.08,12.61l-4,7.94a1,1,0,0,0,.34,1.28L3,23.54V31a1,1,0,0,0,1,1H25a1,1,0,0,0,1-1,13.66,13.66,0,0,1,3.05-8.38A13.93,13.93,0,0,0,31.87,12.07Zm-4.4,9.29A15.79,15.79,0,0,0,24,30h-7.4a8.76,8.76,0,0,0,1.56-1.6l.6-.8a1,1,0,1,0-1.6-1.2l-.6.8A7,7,0,0,1,11,30H5V23a1,1,0,0,0-.45-.83L2.29,20.66l3.42-6.85A1,1,0,0,0,6,13.14a12,12,0,1,1,21.43,8.22Z"/> <path d="M18,4A10,10,0,1,0,28,14,10,10,0,0,0,18,4Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,18,22Z"/> <path d="M18,11h2a1,1,0,0,0,0-2H19a1,1,0,0,0-2,0v.18A3,3,0,0,0,18,15a1,1,0,0,1,0,2H16a1,1,0,0,0,0,2h1a1,1,0,0,0,2,0v-.18A3,3,0,0,0,18,13a1,1,0,0,1,0-2Z"/> </g> </g>
+</svg>
