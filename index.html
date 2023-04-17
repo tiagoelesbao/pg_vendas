@@ -49,6 +49,8 @@
 
     <script src="js/jquery.gsap.min.js"></script>
 
+    
+
 </head>
 <body>
     
@@ -214,131 +216,9 @@
               
         </div>
     </div>
-</div><section id="depoimentos" class="section">
-    <div class="container">
-        <img class="chat-icon" src="img/chat.svg" alt="Descrição da imagem" style="display: block; margin-bottom: 20px;">
-        <div class="row">
-            <div class="col-12 mx-auto col-md-7 text-center col-header">
-                <h2 data-descricao="O que os Drop Servicers estão falando"></h2>
-                <h3>Dizem que não há argumento contra resultados...Veja abaixo o depoimento de alguns integrantes da nossa fraternidade</h3>
-            </div>
-        </div>
+</div>
 
-        <div class="row">
-            <div class="col-12 px-0 px-md-auto">      
-            <div class="gallery grid">
-                <div class="card-glr" data-div="x1">
-                    <img class="bg-depoimentos" src="img/webp/depo-raphael.webp" alt="">
-                    <img class="icone-nm" src="img/icone-nm-svg.svg" alt="">
-                    <div>
-                      
-                      <p> </p>
-                      <h2> </h2>
-                    </div>
-                </div>
-                <div class="card-glr" data-div="x2">
-                    <img class="bg-depoimentos" src="img/webp/depo-paulo.webp" alt="">
-                    <img class="icone-nm" src="img/icone-nm-svg.svg" alt="">
-                    <div>
-                      
-                      <p></p>
-                      <h2></h2>
-                    </div>
-                </div>
-                <div class="card-glr" data-div="x3">
-                    <img class="bg-depoimentos" src="img/webp/depo-juliane.webp" alt="">
-                    <img class="icone-nm" src="img/icone-nm-svg.svg" alt="">
-                    <div>
-                      
-                      <p></p>
-                      <h2></h2>
-                    </div>
-                </div>
-                <div class="card-glr" data-div="x4">
-                 <img class="bg-depoimentos" src="img/webp/depo-junior.webp" alt="">
-                    <img class="icone-nm" src="img/icone-nm-svg.svg" alt="">
-                    <div>
-                      
-                      <p></p>
-                      <h2></h2>
-                    </div>
-                </div>
-               
-                
-                
 
-            <!-- Modal para exibir o vídeo -->
-            <div id="modal-glr" style="z-index: 9999;">
-              <div class="modal-wraper-glr">
-                <div class="modal-content-glr">
-                      <div class="embed-glr">
-                        <iframe id="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-                      </div>
-                      <button id="close-btn-glr"><img src="img/close-modal-depo.svg" alt=""></button>
-                      <button id="prev-btn-glr"><img src="img/arrow-prev-modal-depo.svg" alt=""></button>
-                      <button id="next-btn-glr"><img src="img/arrow-next-modal-depo.svg" alt=""></button>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<script>
-  // Lista de IDs de vídeo
-var videoIds = ["XGBEHmoKJ9c", "TGjuOwhkz58", "TGjuOwhkz58", "TGjuOwhkz58", "TGjuOwhkz58", "TGjuOwhkz58"];
-
-var modalWraper = document.querySelector(".modal-wraper-glr")
-
-// Seleciona todas as divs X
-var divs = document.querySelectorAll('[data-div="x1"], [data-div="x2"], [data-div="x3"], [data-div="x4"], [data-div="x5"], [data-div="x6"]');
-
-// Adiciona evento de clique em cada div X
-divs.forEach(function(div, index) {
-  div.addEventListener('click', function() {
-    // Obtém o ID de vídeo correspondente
-    var videoId = videoIds[index];
-
-    // Define o ID de vídeo no iframe
-    var iframe = document.getElementById('video-iframe');
-    iframe.src = 'https://www.youtube.com/embed/' + videoId;
-
-    // Exibe o modal
-    var modal = document.getElementById('modal-glr');
-    modal.style.display = 'block';
-
-    // Adiciona evento de clique no botão de fechar
-    var closeButton = document.querySelector('#close-btn-glr');
-    closeButton.addEventListener('click', function() {
-      iframe.src = '';
-      modal.style.display = 'none';
-    });
-
-    modalWraper.addEventListener('click', function(event) {
-      if (event.target === modalWraper) {
-        iframe.src = '';
-        modal.style.display = 'none';
-      }
-    });
-
-    // Adiciona evento de clique no botão de navegação "Anterior"
-    var prevButton = document.querySelector('#prev-btn-glr');
-
-    prevButton.addEventListener('click', function() {
-      index = (index - 1 + videoIds.length) % videoIds.length;
-      videoId = videoIds[index];
-      iframe.src = 'https://www.youtube.com/embed/' + videoId;
-    });
-
-    // Adiciona evento de clique no botão de navegação "Próximo"
-    var nextButton = document.querySelector('#next-btn-glr');
-    nextButton.addEventListener('click', function() {
-      index = (index + 1) % videoIds.length;
-      videoId = videoIds[index];
-      iframe.src = 'https://www.youtube.com/embed/' + videoId;
-    });
-  });
-});
 
 
 </script><section id="introducao" class="section">
