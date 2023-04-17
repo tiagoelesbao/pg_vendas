@@ -53,7 +53,8 @@
 
 </head>
 <body>
-    
+    <noscript><iframe src=""
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  <section id="navbar" class="d-none d-md-block">
     <div class="container px-0">
         <nav>
@@ -145,7 +146,7 @@
     <div class="conteudo-hero">
         <img class="logo d-md-none" src="img/logo-nm-legacy.svg" alt="">
         <h1>Descubra Como <span class="text-gradient-blue">Faturar 5 Dígitos </span> <h1</h1>Fazendo<span class="text-gradient-blue"> Drop Services</span></h1>
-        <p>Mesmo que você seja um completo iniciante!</p>
+        <p>Mesmo que você esteja começando do zero!</p>
         <div class="video-container">
             <img class="close-sticky d-none" src="img/close-modal-depo.svg" alt="">
             <div id="sticky-video" style="position:relative;padding-top:56.25%;">
@@ -158,7 +159,7 @@
 <script>
 
     document.addEventListener("DOMContentLoaded", () => {
-        var secondSectionOffset = $('#depoimentos').offset().top; // obter a posição superior da segunda sessão
+        var secondSectionOffset = $('#introducao').offset().top; // obter a posição superior da segunda sessão
         var videoContainer = $('.video-container'); // selecionar o contêiner do vídeo
         var video = $('#sticky-video'); // selecionar o elemento de vídeo
         let isVideoStickyDisabled = false;
@@ -203,20 +204,21 @@
                     <p>Por apenas 12x de</p><span>R$24,80</span>
                 </div>
                 <button class="btn-nm-primary" data-bs-toggle="modal" data-bs-target="#modalConfirmacao">
-                    <a>Quero Aproveitar a Nova Onda</a>
+                    <a>Quero Aproveitar a <br>Nova Onda</a>
                 </button>
                 <!-- <a href="https://pay.kiwify.com.br/387R7sh" style="display: block;" class="btn-nm-primary">Quero Aproveitar a Nova Onda</a> -->
             </div>
             <div class="col-12 col-md-auto px-0">
                 <div class="divisor"></div>
             </div>
-            <div class="col-12 col-md-auto b1 px-0">
-                <h2 style="text-align:center; font-size:20px;">A Primeira Comunidade de <br>Drop Service do Brasil!</h2>
-              </div>
-              
+            <div class="col-12 col-md-auto b1 px-0" style="text-align: center;">
+                <h2> Maior comunidade de <br>Drop Service do Brasil</h2>
+            </div>
+            
         </div>
     </div>
 </div>
+
 
 
 
@@ -226,7 +228,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-5 b1 text-center text-md-start">
-                <h2 data-descricao="Essa é sua chance!"></h2>
+                <h2 data-descricao="VANTAGENS">Essa é sua chance!</h2>
                 <h3>Desde a última vez que eu abri as turmas para a Caixa Preta do Drop Service, diversas pessoas pedem novas vagas. Chegou a hora de você ter acesso a essa modalidade que está vindo com tudo para o Brasil...</h3>
             </div>
             <div class="col-12 col-md-6 b2 ">
@@ -238,13 +240,13 @@
                 </div>
 
                 <div>
-                    <span ><img src="img/icone-introducao-3.svg" alt=""></span>
+                    <span ><img src="img/icone-introducao-2.svg" alt=""></span>
                     <h4>Crie uma Máquina de Vendas Automáticas</h4>
                     <p>Na Caixa Preta do Drop Service você vai ver como criar uma Máquina de Vendas que pode te gerar até 5 dígitos por mês. Você vai ter acesso ao passo-a-passo, detalhe a detalhe da metodologia que eu desenvolvi e que pode te levar à liberdade financeira.</p>
                 </div>
 
                 <div>
-                    <span ><img src="img/icone-introducao-2.svg" alt=""></span>
+                    <span ><img src="img/icone-introducao-3.svg" alt=""></span>
                     <h4>Usando a Inteligencia Artificial a seu favor</h4>
                     <p>Descubra como colocar o Chat GPT, GetProspect, Trello e outras ferramentas para trabalhar por você, aplincando o principal ensinamento do livro "Pai Rico, Pai Pobre" de Robert Kiyosaki</p>
                 </div>
@@ -530,16 +532,11 @@ gsap.to(sections2, {
                 <div class="divisor"></div>
             </div>
             <div class="col-12 col-md-auto b1 px-0">
-                <h2></h2>
-                <div>
-                    <img src="img/webp/alunos.webp" alt="" class="img-alunos">
-                    <div>
-                        <p>Junte-se aos Drop Servicers</p>
-                    </div>
-                </div>
             </div>
         </div>
-    </div><section id="faq" class="section">
+    </div>
+    
+    <section id="faq" class="section">
     <div class="container">
         <div class="row mx-0">
             <div class="col-12 b1">
