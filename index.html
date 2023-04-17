@@ -1010,47 +1010,7 @@ gsap.to(sections2, {
   
 <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-ede9acc5977b1503f9c","applicationID":"1117477841","transactionName":"MlAANRFUVxFSVxBdXgsaNxMKGlAMV1EcGkENRQ==","queueTime":0,"applicationTime":5,"atts":"HhcDQ1lORB8=","errorBeacon":"bam.nr-data.net","agent":""}</script>
 
-<script>
-    function animarCarrossel() {
-      var elementos = document.querySelectorAll('.card-glr');
-      
-      elementos.forEach(function(elemento, index) {
-        var animacao = gsap.timeline({
-          scrollTrigger: {
-            trigger: elemento,
-            start: 'top 80%',
-            end: 'bottom 20%',
-            scrub: 1,
-          },
-        });
-        
-        var imagens = elemento.querySelectorAll('img');
-        
-        animacao.fromTo(
-          imagens[0],
-          { opacity: 0 },
-          { opacity: 1, duration: 1 }
-        );
-        
-        for (var i = 1; i < imagens.length; i++) {
-          animacao.fromTo(
-            imagens[i - 1],
-            { opacity: 1 },
-            { opacity: 0, duration: 1 }
-          );
-          
-          animacao.fromTo(
-            imagens[i],
-            { opacity: 0 },
-            { opacity: 1, duration: 1 },
-            '-=1'
-          );
-        }
-      });
-    }
-    
-    animarCarrossel();
-  </script>
+
 
 </body>
 
